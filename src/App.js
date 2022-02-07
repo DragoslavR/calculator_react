@@ -23,7 +23,7 @@ function reducer(state, { type, payload }) {
       }
       return {
         ...state,
-        currentOperand: `${state.currentOperand || ""} ${payload.digit}`,
+        currentOperand: `${state.currentOperand || ""}${payload.digit}`,
       }
   }
 }
